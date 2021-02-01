@@ -1,0 +1,21 @@
+.container{
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 50px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+.container>div{
+  margin-bottom: 30px;
+}
+.container>div:last-of-type{
+  margin-bottom: 0;
+}
+.container>div>p{
+  margin-top: 0;
+  text-align: center;
+}
