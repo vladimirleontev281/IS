@@ -31,8 +31,10 @@
   width: auto;
   height: 100%;
   background-color: #ffffff;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
   cursor: pointer;
 }
 .background::before, .background::after{
@@ -51,7 +53,6 @@
   right: calc(-1 * (var(--base-height)/2));
 }
 .case{
-  width: auto;
   height: 100%;
   display: flex;
   flex-flow: row nowrap;
